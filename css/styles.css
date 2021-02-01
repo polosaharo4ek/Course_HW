@@ -1,14 +1,30 @@
+html{
+        box-sizing: border-box;
+}
+
+*, *::before, *::after{
+        box-sizing: inherit;
+}
+
 body {
         font-family: "Playfair Display",'Arial', serif;
         color: #626262;
         font-size: 14px;
         line-height: 24px;
 }
+.container{
+        width: 900;
+}
+ul{
+        width:auto;
+        margin:auto;
 
+}
 .site-navigation{
         font-size: 14px;
         text-transform: uppercase;
         list-style: none;
+        margin: auto;
 }
 
 .site-navigation a {
@@ -33,4 +49,18 @@ h2{
         line-height: 36px;
 }
 
+.nav-item{
+        display: inline-block;
+}
+
+.nav-link{
+        display: block;
+        width: ;
+        text-align: center;
+        
+}
+
+.nav-link:hover {
+         color: #03a9f4;
+ }
 
