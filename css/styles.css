@@ -1,3 +1,36 @@
 body {
-        font-family: PlayfairDisplay;
+        font-family: "Playfair Display",'Arial', serif;
+        color: #626262;
+        font-size: 14px;
+        line-height: 24px;
 }
+
+.site-navigation{
+        font-size: 14px;
+        text-transform: uppercase;
+        list-style: none;
+}
+
+.site-navigation a {
+        color: #626262;
+        text-decoration: none;
+
+}
+
+figcaption{
+        font-family: 'Ubuntu', sans-serif;
+        color: #b4ad9e;
+        font-size: 14px;
+        line-height: 17px;
+        text-transform: uppercase;
+
+}
+
+h2{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+}
+
+
